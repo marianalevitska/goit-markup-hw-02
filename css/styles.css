@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Roboto";
+  font-family: Roboto;
 }
 
 .list {
@@ -74,6 +74,7 @@ h1 {
 .main-title-btn {
   background-color: var(--accent-color);
   border-radius: 4px;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -93,6 +94,7 @@ button:hover {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--first-text-color);
 }
 
@@ -145,6 +147,7 @@ footer {
 
 .contact-link {
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
@@ -152,6 +155,7 @@ footer {
 
 .contact-tel {
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--mail-text-color);
@@ -168,10 +172,6 @@ footer {
   --second-button-color: #2196f3;
   --accent-color: #2196f3;
   --bg-color: #2f303a;
-}
-
-body {
-  font-family: Roboto;
 }
 
 .list {
@@ -224,6 +224,7 @@ body {
 .kinds-btn {
   background-color: var(--first-button-color);
   border-radius: 4px;
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -241,7 +242,7 @@ button:hover {
   background: var(--second-button-color);
 }
 
-.title {
+.title-1 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -249,7 +250,7 @@ button:hover {
   color: var(--first-text-color);
 }
 
-.pre-title {
+.pre-title-1 {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
